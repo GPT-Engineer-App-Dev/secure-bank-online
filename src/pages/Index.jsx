@@ -23,7 +23,7 @@ const Index = () => {
           </Box>
         </Flex>
 
-        <Button colorScheme="teal" size="lg" mt={8}>Get Started</Button>
+        <Button colorScheme="teal" size="lg" mt={8} as="a" href="/transaction-history">View Transaction History</Button>
       </VStack>
     </Container>
   );
